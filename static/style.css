@@ -1,0 +1,114 @@
+/* Center the content nicely */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+/* Header style */
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Animation for split text */
+.split-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+/* Keyframes for animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === General Styles === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+/* === Heading Style === */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* === Table Styling === */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+th, td {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    color: #2c3e50;
+}
+
+/* === Split Text Animation Styles === */
+.split-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+/* Each character fades in with delay (set by JS) */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Optional: Fade-in effect for the whole table */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
